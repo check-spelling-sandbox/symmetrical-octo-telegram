@@ -1,0 +1,15 @@
+name: blank
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run a multi-line script
+        run: |
+          # Do you see this line?
+          echo Add other actions to build,
+          echo test, and deploy your project.
