@@ -1,0 +1,17 @@
+name: 'Repository Local Action'
+description: 'Demonstration action'
+author: 'jsoref'
+
+runs:
+  using: 'composite'
+  steps:
+    - name: First step
+      shell: bash
+      run: |
+        : First line of first step
+        echo hello world
+    - name: Second step
+      shell: bash
+      run: |
+        echo First line of second step
+        echo Second line of second step

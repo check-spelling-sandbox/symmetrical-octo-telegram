@@ -13,3 +13,9 @@ jobs:
           : Description of task
           echo Add other actions to build,
           echo test, and deploy your project.
+
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Local action
+        uses: ./
