@@ -15,3 +15,9 @@ runs:
       run: |
         echo First line of second step
         echo Second line of second step
+    - name: Third step
+      shell: bash
+      run: |
+
+        echo Second line of third step
+        echo Third line of third step
